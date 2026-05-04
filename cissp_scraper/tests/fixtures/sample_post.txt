@@ -1,0 +1,11 @@
+CISSP Question of the Day - Monday, April 29, 2024
+Domain: Identity & Access Management
+
+An organization has implemented a federated identity management system that allows employees to access third-party SaaS applications using their corporate credentials. The security team is concerned about the risk of credential theft and wants to ensure that access tokens cannot be reused by an attacker who intercepts them. Which protocol feature BEST addresses this concern?
+
+A. OAuth 2.0 authorization code flow with PKCE
+B. SAML 2.0 with XML signature validation
+C. OpenID Connect with short-lived access tokens and token binding
+D. Kerberos with ticket-granting ticket (TGT) caching
+
+#CISSP #CISSPSuccess #ISC2 #IdentityAndAccessManagement #IAM #SecurityCertification
