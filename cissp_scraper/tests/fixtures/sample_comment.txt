@@ -1,0 +1,7 @@
+Answer: C
+
+OpenID Connect with short-lived access tokens combined with token binding provides the strongest protection against token replay attacks. Short-lived tokens limit the window of opportunity for an attacker, while token binding cryptographically ties the token to the TLS session, making intercepted tokens unusable from a different client or network connection.
+
+Option A (PKCE) protects the authorization code flow from interception during the OAuth redirect but does not address token replay once a token is issued. Option B (SAML XML signatures) ensures message integrity but does not prevent a valid token from being reused. Option D (Kerberos TGT caching) applies to on-premise authentication and is not directly applicable to third-party SaaS access.
+
+#CISSP #CISSPSuccess #ISC2
